@@ -1,8 +1,8 @@
-// global 객체
+// global Object
 
 // browser용인지 node용인지 알려주기 위해 node module import
 const fs = require('fs');
-
+// 이 global은 node module이군
 console.log(global);
 
 // global이라는 전역 객체에 hello라는 함수 정의
